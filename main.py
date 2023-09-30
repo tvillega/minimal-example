@@ -1,3 +1,3 @@
 import time
 
-for i in range(0,5): print(i) ; time.sleep(0.5)
+for i in range(0,5): print(4-i) ; time.sleep(0.5)
