@@ -1,12 +1,15 @@
 import time
 
-def countdown():
-    """ Counts from 4 to 0
+class MainClass:
 
-    This functions is a countdown that starts at 5 and ends at 0
-    """
+    def countdown(self):
+        """ Counts from 4 to 0
 
-    for i in range(0,5): print(4-i) ; time.sleep(0.5)
-    return -1
+        This functions is a countdown that starts at 5 and ends at 0
+        """
 
-countdown()
+        for i in range(0,5): print(4-i) ; time.sleep(0.5)
+        return -1
+
+myClass = MainClass()
+myClass.countdown()
