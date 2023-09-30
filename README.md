@@ -1,3 +1,3 @@
-# README
+# Minimal Example
 
-This is a test file.
+This is a minimal example of a python unittest and SV using conventional commits.
